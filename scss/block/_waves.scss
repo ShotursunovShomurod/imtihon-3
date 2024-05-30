@@ -1,0 +1,17 @@
+.waves__wrapper{
+    width: 100%;
+    margin-top: 136px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    .waves__card{
+        width: 33.33%;
+        padding: 42px 100px;
+        border-bottom: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+    }
+    .activ{
+        border-bottom: none;
+    }
+}

@@ -1,0 +1,126 @@
+.hero {
+  .hero__wrapper {
+    background: url(../../assets/pexels-leah-kelley-3935702\ \(1\)\ 1.png);
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 20px;
+    p:nth-child(1) {
+      font-size: 96px;
+      color: #23262f;
+    }
+    p:nth-child(2) {
+      font-size: 24px;
+      color: #23262f;
+    }
+    button {
+      background: #3b71fe;
+      height: 40px;
+      width: 182px;
+      border-radius: 20px;
+      border: none;
+      color: #fcfcfd;
+      transition: .5s;
+      &:hover{
+        cursor: pointer;
+      }
+      &:active{
+        opacity: .8;
+        transform: scale(.9);
+      }
+    }
+  }
+  .hero__stats {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: -150px;
+    height: 307px;
+    background: #f2f3f3;
+    padding: 40px;
+    .stats__wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      .stats__context {
+        display: flex;
+        gap: 48px;
+        color: #777e90;
+p:hover{
+    cursor: pointer;
+    color: #23262f;
+}
+p:active{
+    transform: scale(.9);
+}
+      }
+      .stats__btn {
+        button:nth-child(1) {
+          border: none;
+          height: 40px;
+          background: transparent;
+          border: 2px solid #e6e8ec;
+          border-radius: 20px;
+          color: #23262f;
+          padding: 10px 16px;
+          font-weight: 900;
+          transition: .5s;
+          &:hover{
+            cursor: pointer;
+            background: #23262f;
+            color: #fff;
+          }
+          &:active{
+            transform: scale(.9);
+          }
+        }
+        button:nth-child(2) {
+          border: none;
+          height: 40px;
+          background: transparent;
+          border: 2px solid #e6e8ec;
+          border-radius: 20px;
+          color: #23262f;
+          padding: 10px 16px;
+          font-weight: 900;
+          transition: .5s;
+          &:hover{
+            cursor: pointer;
+            background: #23262f;
+            color: #fff;
+          }
+          &:active{
+            transform: scale(.9);
+          }
+        }
+      }
+      .stats__day {
+        display: flex;
+        gap: 30px;
+        .stats__card {
+          width: 30%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          .first__title {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            p {
+              font-size: 24px;
+              color: #23262f;
+            }
+          }
+          .last__title {
+            p {
+              color: #777e90;
+              padding-left: 37px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

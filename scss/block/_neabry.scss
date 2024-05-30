@@ -1,0 +1,235 @@
+.neabry__wrapper {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  .neabry__context {
+    display: flex;
+    justify-content: space-between;
+    p:nth-child(1){
+        font-size: 48px;
+        color: #23262F;
+    }
+    p:nth-child(2){
+        font-size: 24px;
+        color: 
+        #777E90;
+    }
+    .neabry__click {
+      display: flex;
+      gap: 8px;
+      .rent__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 32px;
+        background: transparent;
+        height: 32px;
+        border-radius: 50%;
+        border: none;
+        &:hover{
+            cursor: pointer;
+            border: 2px solid #E6E8EC
+        }
+      }
+    }
+  }
+  .neabry__block{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    .neabry__card{
+      width: 352px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        img{
+          width: 100%;
+        }
+    }
+  }
+  .popular__btn {
+    width: 100%;
+    .btn {
+      width: 162px;
+      border: 2px solid #e6e8ec;
+      border-radius: 20px;
+      background: transparent;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+    }
+  }
+}
+
+
+@media(max-width:1144px){
+  .neabry__wrapper{
+    .neabry__block{
+      display: flex;
+      .neabry__card{
+        width: 320px;
+      }
+    }
+  }
+}
+@media(max-width:1123px){
+  .neabry__wrapper{
+    .neabry__block{
+      display: flex;
+      gap: 16px;
+      .neabry__card{
+        width: 330px;
+        gap: 8px;
+      }
+    }
+  }
+}
+@media(max-width:1092px){
+  .neabry__wrapper{
+    .neabry__block{
+      display: flex;
+      .neabry__card{
+        width: 320px;
+        gap: 8px;
+      }
+    }
+  }
+}
+@media(max-width:1044px){
+  .neabry__wrapper{
+    .neabry__block{
+      display: flex;
+      // gap: 16px;
+      .neabry__card{
+        width: 310px;
+        gap: 8px;
+      }
+    }
+  }
+}
+@media(max-width:1014px){
+  .neabry__wrapper{
+    .neabry__block{
+      display: flex;
+      // gap: 16px;
+      .neabry__card{
+        width: 300px;
+        gap: 8px;
+      }
+    }
+  }
+}
+@media(max-width:985px){
+  .neabry__wrapper{
+    .neabry__block{
+      display: flex;
+        .neabry__card{
+        width: 290px;
+        gap: 8px;
+      }
+    }
+  }
+}
+
+@media(max-width:954px){
+  .neabry__wrapper{
+    .neabry__block{
+      display: flex;
+        .neabry__card{
+        width: 250px;
+        gap: 8px;
+      }
+    }
+  }
+}
+
+@media(max-width:835px){
+  .neabry__wrapper{
+    .neabry__block{
+      display: flex;
+        .neabry__card{
+        width: 230px;
+        gap: 8px;
+      }
+    }
+  }
+}
+
+@media(max-width:775px){
+  .neabry__wrapper{
+    .neabry__block{
+      display: flex;
+        .neabry__card{
+        width: 200px;
+        gap: 8px;
+        p:nth-child(2){
+          font-size: 14px;
+          color: 
+          #777E90;
+      }
+      }
+    }
+  }
+}
+@media(max-width:684px){
+  .neabry__wrapper{
+    .neabry__block{
+      display: flex;
+        .neabry__card{
+        width: 170px;
+        gap: 8px;
+        p:nth-child(2){
+          font-size: 14px;
+          color: 
+          #777E90;
+      }
+      }
+    }
+  }
+}
+@media(max-width:594px){
+  .neabry__wrapper{
+    .neabry__block{
+      display: flex;
+        .neabry__card{
+        width: 100px;
+        gap: 8px;
+        p:nth-child(2){
+          font-size: 5px;
+          color: 
+          #777E90;
+      }
+      }
+    }
+  }
+}
+@media(max-width:385px){
+  .neabry__wrapper{
+    .neabry__block{
+      display: flex;
+        .neabry__card{
+        width: 325px;
+        gap: 8px;
+      }
+      .neabry__card:nth-child(2){
+        display: none;
+      }
+      .neabry__card:nth-child(3){
+        display: none;
+      }
+      .neabry__card:nth-child(4){
+        display: none;
+      }
+      .neabry__card:nth-child(5){
+        display: none;
+      }
+      .neabry__card:nth-child(6){
+        display: none;
+      }
+    }
+  }
+}

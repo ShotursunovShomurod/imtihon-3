@@ -1,0 +1,63 @@
+.rent__wrapper {
+  width: 100%;
+  margin-top: 136px;
+  display: flex;
+  border: 1px solid red;
+align-items: center;
+  .rent__context {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    p:nth-child(1) {
+      color: #777e90;
+      font-weight: 700;
+    }
+
+    p:nth-child(2) {
+      color: #23262f;
+      font-weight: 700;
+      font-size: 48px;
+      max-width: 400px;
+    }
+
+    p:nth-child(3) {
+      font-weight: 700;
+      max-width: 390px;
+      font-size: 16px;
+      color: #777e90;
+    }
+
+    .rent__inp {
+      display: flex;
+      border: 2px solid #e6e8ec;
+      border-radius: 20px;
+      width: 300px;
+      align-items: center;
+      padding: 8px 8px 8px 16px;
+      justify-content: space-between;
+
+      input {
+        outline: none;
+        border: none;
+      }
+
+      .rent__btn {
+        width: 32px;
+        background: #3b71fe;
+        height: 32px;
+        border-radius: 50%;
+        border: none;
+      }
+    }
+  }
+
+  .rent__img {
+    width: 50%;
+
+    img {
+      width: 100%;
+    }
+  }
+}
