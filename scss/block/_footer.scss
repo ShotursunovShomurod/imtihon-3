@@ -56,3 +56,18 @@
         padding: 25px 0;
     }
 }
+
+
+@media(max-width:745px){
+    .footer{
+        .footer__wrapper{
+            display: flex;
+            flex-direction: column;
+            .footer__context{
+                display: flex;
+                flex-direction: row;
+                gap: 60px;
+            }
+        }
+    }
+}

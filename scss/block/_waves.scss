@@ -15,3 +15,15 @@
         border-bottom: none;
     }
 }
+
+
+
+@media(max-width:820px){
+    .waves__wrapper{
+        display: flex;
+        flex-direction: column;
+        .waves__card{
+            width: 100%;
+        }
+    }
+}

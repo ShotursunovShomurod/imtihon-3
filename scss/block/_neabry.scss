@@ -61,6 +61,15 @@
       align-items: center;
       justify-content: center;
       font-weight: 700;
+      transition: .5s;
+      &:hover{
+        cursor: pointer;
+      }
+      &:active{
+        background: darkgrey;
+        color: #e6e8ec;
+        transform: scale(.9);
+      }
     }
   }
 }

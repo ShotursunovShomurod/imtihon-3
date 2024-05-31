@@ -2,7 +2,6 @@
   width: 100%;
   margin-top: 136px;
   display: flex;
-  border: 1px solid red;
 align-items: center;
   .rent__context {
     width: 50%;
@@ -59,5 +58,30 @@ align-items: center;
     img {
       width: 100%;
     }
+  }
+}
+
+@media(max-width:813px){
+  .rent__wrapper{
+    .rent__context{
+      p:nth-child(2){
+        font-size: 26px;
+      }
+    }
+  }
+}
+
+@media(max-width:610px){
+  .rent__wrapper{
+display: flex;
+flex-direction: column;
+align-items: start;
+gap: 20px;
+.rent__context{
+  width: 100%;
+}
+.rent__img{
+  width: 100%;
+}
   }
 }

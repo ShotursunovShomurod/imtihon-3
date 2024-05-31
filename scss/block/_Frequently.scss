@@ -66,3 +66,17 @@
     }
   }
 }
+
+
+@media(max-width:500px){
+  .frequently__wrapper{
+    .frequently__table{
+      .table__wrapper{
+        .table__deck{
+          width: 100%;
+          
+        }
+      }
+    }
+  }
+}
