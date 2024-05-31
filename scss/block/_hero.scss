@@ -104,6 +104,13 @@
           display: flex;
           flex-direction: column;
           justify-content: center;
+          .stats__logo{
+            img{
+              &:hover{
+                cursor: pointer;
+              }
+            }
+          }
           .first__title {
             display: flex;
             align-items: center;

@@ -189,39 +189,7 @@
     .neabry__block{
       display: flex;
         .neabry__card{
-        width: 170px;
-        gap: 8px;
-        p:nth-child(2){
-          font-size: 14px;
-          color: 
-          #777E90;
-      }
-      }
-    }
-  }
-}
-@media(max-width:594px){
-  .neabry__wrapper{
-    .neabry__block{
-      display: flex;
-        .neabry__card{
-        width: 100px;
-        gap: 8px;
-        p:nth-child(2){
-          font-size: 5px;
-          color: 
-          #777E90;
-      }
-      }
-    }
-  }
-}
-@media(max-width:385px){
-  .neabry__wrapper{
-    .neabry__block{
-      display: flex;
-        .neabry__card{
-        width: 325px;
+        width: 100%;
         gap: 8px;
       }
       .neabry__card:nth-child(2){
